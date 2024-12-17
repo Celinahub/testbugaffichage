@@ -36,6 +36,7 @@ async function imageShortcode(src, alt = "", sizes = "100vw") {
       loading: "lazy",
       decoding: "async",
     };
+    
 
     return Image.generateHTML(metadata, imageAttributes, {
       whitespaceMode: "inline"
